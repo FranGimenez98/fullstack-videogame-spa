@@ -1,0 +1,141 @@
+.topContainer{
+
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #151515;
+    z-index: 1;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,.07);
+}
+
+.left{
+    flex:3;
+}
+
+.center{
+    flex: 5;
+}
+
+.right{
+    flex:  3;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo{
+    background-image: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    border-bottom-color: currentcolor;
+    white-space: nowrap;
+    cursor: pointer;
+    padding-left: 80px;
+}
+
+.primary{
+    color:#ff0084;
+}
+
+.rightContainer{
+    margin-right: 4rem;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.topbarIcon{
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+.topbarIcon:hover{
+    color: #ff0084;
+}
+
+.login{
+    width: 5.6rem;
+    height: 2.3rem;
+    border: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    background-color: #ff0084;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.login:hover{
+    background-color: #ff349d;
+}
+
+.searchbarContainer{
+    display: flex;
+    justify-content: center;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+}
+
+.searchbar{
+    width: 60%;
+    height: 40px;
+    background-color: hsla(0,0%,100%,.07);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    transition: .2s ease-in-out;
+    margin-left: 8rem;
+}
+
+.searchIcon{
+    color: #ff0084;
+    font-size: 23px;
+    cursor: pointer;
+    transition: .1s ease-in-out;
+    margin-top: 3px;
+}
+
+.searchIcon:hover{
+    color: #ff349d;
+}
+
+.searchbarInput{
+    border: none;
+    width: 80%;
+    height: 100%;
+    font-size: 15px;
+    padding-left: 10px;
+    color: #fff;
+    background-color: transparent;
+    transition: .1s ease;
+}
+
+/* .searchbar:hover, .searchbarInput:hover{
+    background-color: #fff;
+    color: #000;
+} */
+
+.searchbarInput:focus{
+    outline: none;
+}
+
+.searchbarBtn{
+    border: none;
+    background-color: #202020;
+    border-radius: 9999999px;
+    margin-left: 3px;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}

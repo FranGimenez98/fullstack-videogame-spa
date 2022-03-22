@@ -1,0 +1,65 @@
+
+.container{
+    display: flex ;
+    height: 100%;
+}
+
+.landingLeft{
+    flex: 3;
+}
+
+.landingRight{
+    flex: 2
+}
+
+.landingImgContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.landingIntroContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    position: absolute;
+    left: 550px;
+    bottom: 40px;
+}
+
+.landingLogo{
+    width: 30rem;
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 60px;
+}
+
+.primary{
+    color:#ff0084;
+}
+
+.secondary{
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.btn{
+    background-color: #ff0084;
+    border: none;
+    height: 3rem;
+    width: 6rem;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .5s ease-in-out;
+}
+
+.btn:hover{
+    background-color: #ff1b91;
+}

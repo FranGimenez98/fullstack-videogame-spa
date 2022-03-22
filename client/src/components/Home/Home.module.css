@@ -1,0 +1,23 @@
+.color{
+    color: white;
+}
+
+.grid{
+    /* display: flex;
+    width: 100vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; */
+    max-width: 960px;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 20px;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .grid {
+        grid-template-columns: repeat(1, 300px);
+    }
+  }

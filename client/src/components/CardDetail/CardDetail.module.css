@@ -1,0 +1,22 @@
+.container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.detailContainer{
+    width: 40rem;
+}
+
+.detailImg{
+    width: 30rem;
+}
+
+.detailsDataContainer{
+    display: flex;
+    flex-direction: column;
+}

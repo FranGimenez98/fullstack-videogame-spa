@@ -1,0 +1,29 @@
+.paginado{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-top: 14px;
+    gap: 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+.paginadoBtn{
+    background-color: hsla(0,0%,100%,.07);
+    width: 2.5rem;
+    height: 2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,.07)
+}
+
+.aginadoBtn:hover{
+    color: grey;
+}

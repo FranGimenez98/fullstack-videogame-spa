@@ -1,0 +1,154 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.formContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #202020;
+    border-radius: 6px;
+    width: 22rem;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,.07);
+}
+
+.form{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.inputs{
+    border: none;
+    width: 20rem;
+    padding: 12px;
+    border-radius: 3px;
+    border: 2px solid #ff0084;
+    color: white;
+    background-color: #151515;
+    
+}
+
+.inputs:focus{
+    outline: none;
+}
+
+.selectContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;  
+}
+
+.select{
+    height: 3rem;
+    width: 9rem;
+    padding-left: 10px;
+    background-color: hsla(0,0%,100%,.07);
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+.option{
+    background-color: #202020;
+    
+}
+
+.results{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 16rem;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.box{
+    margin-top: 10px;
+    background-color: #ff0084;
+    border: none;
+    color: #fff;
+    width: 6rem;
+    height: 2.7rem;
+    border-radius: 6px;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,.07);
+    transition: .1s;
+    position: relative;
+    text-align: center;
+    padding-top: 7px;
+    font-size: 11px;
+}
+
+
+.delete{
+    background-color: white;
+    color: #ff0084;
+    width: 20px;
+    height: 20px;
+    border-radius: 99999999px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: -7px;
+    right: -4px;
+    font-size: 8px;
+    padding-top: 4.5px;
+    font-weight: bolder;
+}
+
+.resultsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deleteBtnContainer{
+    margin: 10px 9px;
+}
+
+.deleteBtn{
+    width: 8.9rem;
+    height: 3rem;
+    border: none;
+    background-color: #ff0084;
+    border-radius: 6px;
+    color: white;
+    transition: .1s ease;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.deleteBtn:hover{
+    background-color: #ff349d;
+}
+
+.titleContainer{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.titleSpan{
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.vgSpan{
+    text-transform: uppercase;
+}

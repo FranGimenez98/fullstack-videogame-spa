@@ -1,0 +1,18 @@
+:root{
+    --red: #ff0000;
+    --blue: #0d00ff;
+}
+
+body{
+    background-color: var(--background-color);
+    color: #fff;
+    font-size: 14px;
+}
+
+body.light{
+    --background-color: var(--blue);
+}
+
+body.dark{
+    --background-color: var(var(--red))
+}
